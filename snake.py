@@ -1,3 +1,26 @@
+# snake.py
+import random
+import turtle
+from logger import log
+from score_manager import save_score, load_scores
+
+# Existing code...
+
+# Example of logging a message
+log("Game started")
+
+# Example of saving a score
+player_name = input('Enter user name: ')
+score = 100
+save_score(player_name, score)
+
+# Example of loading scores
+scores = load_scores()
+print(scores)
+
+# Existing code...
+
+
 import turtle
 import time
 import random
